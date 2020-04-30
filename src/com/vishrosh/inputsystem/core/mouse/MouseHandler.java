@@ -27,7 +27,6 @@ public class MouseHandler implements MouseListener{
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		System.out.println("sdfs");
 		mpl.onEvent(new MousePressedEvent(e.getX(), e.getY(), e.getButton()));
 	}
 

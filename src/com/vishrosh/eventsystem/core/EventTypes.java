@@ -5,5 +5,8 @@ public enum EventTypes {
 	MouseMoved,
 	MousePressed,
 	MouseReleased,
-	ValueAt500
+	MouseClicked,
+	KeyPressed,
+	KeyReleased,
+	KeyTyped
 }
